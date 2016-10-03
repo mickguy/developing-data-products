@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Date: October 3, 2016
 
-```{r libraries echo=FALSE, warning=FALSE}
+```{r libraries echo=FALSE, warning=FALSE, error=FALSE}
 # Load Libraries
 library(leaflet)
 library(googlesheets)
@@ -30,7 +30,7 @@ library(dplyr)
 ## Sherlock Holmes Case Map
 
 
-```{r sherlock_data, echo=FALSE, warning=FALSE}
+```{r sherlock_data, echo=FALSE, warning=FALSE, error=FALSE}
 
 # Retrieve Google Sheet
 # sherlock.holmes <- gs_title("Sherlock Holmes Case Places")
